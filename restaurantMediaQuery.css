@@ -1,0 +1,59 @@
+@media screen and (max-width: 500px) {
+   .navbar{
+       background-color: antiquewhite;
+       flex-direction: column;
+       height: 320px;
+       width: 100%;
+      
+    }
+    .navbarlist .myul{
+        flex-direction: column;
+    }
+    .navbarlist .myul li{
+        margin-bottom: 20px;
+        color: black;
+    }
+    .threeCard{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card{
+        height: 1600px;
+    }
+    .formDiv{
+        height: 1200px;
+    }
+    .formLayout{
+        position:absolute;
+        top: 50px;
+        left: 85px;
+    }
+    .burger{
+        position: absolute;
+        right: 30px;
+        bottom: 85px;
+        
+
+    }
+    .burger img{
+        width: 350px;
+    }
+    .partners{
+        height: 1100px;
+    }
+    .footerColumn{
+        height: 150px;
+        padding-top: 100px;
+        padding-left: 85px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }.footerColumn img{
+       text-align: center;
+    }
+    
+    
+  }
